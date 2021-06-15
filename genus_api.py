@@ -6,7 +6,6 @@ data = pd.read_csv('https://genus.fuw.edu.pl/_all_genus', delimiter=';')
 print(data)
 
 
-
 SEARCH_STRING = 'https://genus.fuw.edu.pl/browse/?moltag=hydrolase%2Fpeptide&set=True&is_rna=&raw=1'
 
 # Genus Proteins
