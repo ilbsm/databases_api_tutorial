@@ -20,7 +20,7 @@ def get_proteins(search_url):
     return proteins
 
 
-class DatabaseDownloader:
+class ILBSMDatabaseDownloader:
     def __init__(self, search_url, download_urls, directory='out', create_separate_dirs=False):
         self.directory = Path(directory)
         self.setup_download_dir()

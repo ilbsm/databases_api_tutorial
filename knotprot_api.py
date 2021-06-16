@@ -1,4 +1,4 @@
-from database_downloader import DatabaseDownloader
+from ilbsm_database_downloader import ILBSMDatabaseDownloader
 import pandas as pd
 
 SEARCH_STRING = 'https://knotprot.cent.uw.edu.pl/browse/?set=True&bridgeType=probab&knotTypes=-31&array=0&raw=1'
@@ -21,22 +21,22 @@ URL_KNOTOID_SUB_FINGERPRINT_MATRIX = 'https://knotprot.cent.uw.edu.pl/static/kno
 URL_KNOTOID_SUB_KNOTTED_CORE = 'https://knotprot.cent.uw.edu.pl/static/knot_data//{0}/{1}/{0}_{1}_knotted-core.txt'
 URL_KNOTOID_SUB_SEARCH_RAW = 'https://knotprot.cent.uw.edu.pl/static/knot_data//{0}/{1}/search100.txt'
 
-dd = DatabaseDownloader(SEARCH_STRING, [URL_KNOT_MATRIX,
-                                        URL_KNOT_MATRIX_SVG,
-                                        URL_KNOT_MATRIX_ARROWS_SVG,
-                                        URL_KNOTMAP,
-                                        URL_TRIMMED_PDB,
-                                        URL_CHAIN_XYZ], 'out_dir', create_separate_dirs=False)
+dd = ILBSMDatabaseDownloader(SEARCH_STRING, [URL_KNOT_MATRIX,
+                                             URL_KNOT_MATRIX_SVG,
+                                             URL_KNOT_MATRIX_ARROWS_SVG,
+                                             URL_KNOTMAP,
+                                             URL_TRIMMED_PDB,
+                                             URL_CHAIN_XYZ], 'out_dir', create_separate_dirs=False)
 #dd.get_all()
 
-dd = DatabaseDownloader(SEARCH_STRING, [URL_KNOTOID_WHOLE_MAP,
-                                        URL_KNOTOID_WHOLE_RAW,
-                                        URL_KNOTOID_SUB_MATRIX,
-                                        URL_KNOTOID_SUB_RAW,
-                                        URL_KNOTOID_SUB_CIRCULAR,
-                                        URL_KNOTOID_SUB_FINGERPRINT_MATRIX,
-                                        URL_KNOTOID_SUB_KNOTTED_CORE,
-                                        URL_KNOTOID_SUB_SEARCH_RAW], 'out_dir_knotoids', create_separate_dirs=False)
+dd = ILBSMDatabaseDownloader(SEARCH_STRING, [URL_KNOTOID_WHOLE_MAP,
+                                             URL_KNOTOID_WHOLE_RAW,
+                                             URL_KNOTOID_SUB_MATRIX,
+                                             URL_KNOTOID_SUB_RAW,
+                                             URL_KNOTOID_SUB_CIRCULAR,
+                                             URL_KNOTOID_SUB_FINGERPRINT_MATRIX,
+                                             URL_KNOTOID_SUB_KNOTTED_CORE,
+                                             URL_KNOTOID_SUB_SEARCH_RAW], 'out_dir_knotoids', create_separate_dirs=False)
 #dd.get_all()
 
 
