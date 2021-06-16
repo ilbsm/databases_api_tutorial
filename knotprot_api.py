@@ -1,4 +1,4 @@
-from ilbsm_database_downloader import ILBSMDatabaseDownloader
+from spyprot.ilbsm_database_downloader import ILBSMDatabaseDownloader
 import pandas as pd
 
 SEARCH_STRING = 'https://knotprot.cent.uw.edu.pl/browse/?set=True&bridgeType=probab&knotTypes=-31&array=0&raw=1'

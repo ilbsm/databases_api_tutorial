@@ -1,6 +1,6 @@
 import pandas as pd
 
-from ilbsm_database_downloader import ILBSMDatabaseDownloader
+from spyprot.ilbsm_database_downloader import ILBSMDatabaseDownloader
 
 data = pd.read_csv('https://genus.fuw.edu.pl/_all_genus', delimiter=';')
 print(data)

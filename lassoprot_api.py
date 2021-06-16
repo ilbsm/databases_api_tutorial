@@ -1,4 +1,4 @@
-from ilbsm_database_downloader import ILBSMDatabaseDownloader
+from spyprot.ilbsm_database_downloader import ILBSMDatabaseDownloader
 
 SEARCH_STRING = 'https://lassoprot.cent.uw.edu.pl/browse/?lassoType=L3&set=0&bridgeType=ssbridge%2Camide%2Cester%2Cthioester%2Cothers&array=0&raw=1'
 
