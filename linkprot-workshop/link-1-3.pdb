@@ -1,0 +1,41 @@
+ATOM      1  CA  GLY A   1      11.491   0.000   0.000
+ATOM      2  CA  GLY A   2      10.868   3.731   0.000
+ATOM      3  CA  GLY A   3       9.068   7.058   0.000
+ATOM      4  CA  GLY A   4       6.285   9.620   0.000
+ATOM      5  CA  GLY A   5       2.821  11.139   0.000
+ATOM      6  CA  GLY A   6      -0.949  11.452   0.000
+ATOM      7  CA  GLY A   7      -4.616  10.523   0.000
+ATOM      8  CA  GLY A   8      -7.783   8.454   0.000
+ATOM      9  CA  GLY A   9     -10.106   5.469   0.000
+ATOM     10  CA  GLY A  10     -11.334   1.891   0.000
+ATOM     11  CA  GLY A  11     -11.334  -1.891   0.000
+ATOM     12  CA  GLY A  12     -10.106  -5.469   0.000
+ATOM     13  CA  GLY A  13      -7.783  -8.454   0.000
+ATOM     14  CA  GLY A  14      -4.616 -10.523   0.000
+ATOM     15  CA  GLY A  15      -0.949 -11.452   0.000
+ATOM     16  CA  GLY A  16       2.821 -11.139   0.000
+ATOM     17  CA  GLY A  17       6.285  -9.620   0.000
+ATOM     18  CA  GLY A  18       9.068  -7.058   0.000
+ATOM     19  CA  GLY A  19      10.868  -3.731   0.000
+TER
+ATOM     20  CA  GLY B   1       0.000  22.982   0.000
+ATOM     21  CA  GLY B   2       0.000  22.359   3.731
+ATOM     22  CA  GLY B   3       0.000  20.559   7.058
+ATOM     23  CA  GLY B   4       0.000  17.776   9.620
+ATOM     24  CA  GLY B   5       0.000  14.312  11.139
+ATOM     25  CA  GLY B   6       0.000  10.542  11.452
+ATOM     26  CA  GLY B   7       0.000   6.875  10.523
+ATOM     27  CA  GLY B   8       0.000   3.708   8.454
+ATOM     28  CA  GLY B   9       0.000   1.385   5.469
+ATOM     29  CA  GLY B  10       0.000   0.157   1.891
+ATOM     30  CA  GLY B  11       0.000   0.157  -1.891
+ATOM     31  CA  GLY B  12       0.000   1.385  -5.469
+ATOM     32  CA  GLY B  13       0.000   3.708  -8.454
+ATOM     33  CA  GLY B  14       0.000   6.875 -10.523
+ATOM     34  CA  GLY B  15       0.000  10.542 -11.452
+ATOM     35  CA  GLY B  16       0.000  14.312 -11.139
+ATOM     36  CA  GLY B  17       0.000  17.776  -9.620
+ATOM     37  CA  GLY B  18       0.000  20.559  -7.058
+ATOM     38  CA  GLY B  19       0.000  22.359  -3.731
+END
+
