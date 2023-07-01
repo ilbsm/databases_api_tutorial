@@ -2,4 +2,4 @@ jupyter
 pandas
 beautifulsoup4
 html5lib
-spyprot>=0.8.0
+spyprot>=0.8.2
